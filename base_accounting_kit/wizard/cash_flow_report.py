@@ -25,7 +25,7 @@ from odoo import api, fields, models
 
 class AccountingReport(models.TransientModel):
     _name = "cash.flow.report"
-    _inherit = "account.common.report"
+    _inherit = "account.report"
     _description = "Cash Flow Report"
 
     @api.model

@@ -26,7 +26,7 @@ from odoo import fields, models
 class AccountingCommonPartnerReport(models.TransientModel):
     _name = 'account.common.partner.report'
     _description = 'Account Common Partner Report'
-    _inherit = "account.common.report"
+    _inherit = "account.report"
 
     result_selection = fields.Selection([('customer', 'Receivable Accounts'),
                                          ('supplier', 'Payable Accounts'),

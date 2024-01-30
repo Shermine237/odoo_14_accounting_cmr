@@ -26,7 +26,7 @@ from odoo import api, models, fields
 
 class FinancialReport(models.TransientModel):
     _name = "financial.report"
-    _inherit = "account.common.report"
+    _inherit = "account.report"
     _description = "Financial Reports"
 
     view_format = fields.Selection([
