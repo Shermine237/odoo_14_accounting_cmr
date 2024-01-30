@@ -35,7 +35,7 @@
     <!--    # Journal audit report    -->
     <record id="action_report_journal" model="ir.actions.report">
             <field name="name">Journals Audit</field>
-            <field name="model">account.common.journal.report</field>
+            <field name="model">account.journal</field>
             <field name="report_type">qweb-pdf</field>
             <field name="report_name">base_accounting_kit.report_journal_audit</field>
             <field name="report_file">base_accounting_kit.report_journal_audit</field>
